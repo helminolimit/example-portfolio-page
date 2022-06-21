@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/32c580c9e4.js" crossorigin="anonymous"></script>
+    <style></style>
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- top nav -->
+    <header><nav id="navbar">
+        <a class="active" href="#welcome-section">Home</a>
+        <a class="" href="#projects">Projects</a>
+        <a class="" href="#profile">About</a>
+        <a class="" href="#kontak">Contact</a>   
+    </nav> </header>
+       
+    <!-- 1st sec int5ro-->
+    <div id="welcome-section"  class="hero-image">
+        <div class="hero-text">
+            <h1>Hello World,</h1>
+            <p>Welcome to my portfolio</p>
+            <button type="button">Read more</button>            
+        </div>
+    </div>
+
+    <!-- 2nd sec for projects-->
+    <div class="row" id="projects">
+        <h2>My Projects</h2>
+            <div class="project-tile">
+                <div class="card">
+                <img src="/images/tribute.PNG" alt="project1" >
+                <div class="container">
+                    <h2>Tribute Page</h2>
+                    <a href="https://github.com/helminolimit/tributepage.git" target="_blank" rel="noopener"><button type="button" class="button">See more</button></a>
+                </div>
+                </div>
+            </div>
+
+            <div class="project-tile">
+                <div class="card">
+                <img src="/images/Survey.PNG" alt="project2" >
+                <div class="container">
+                    <h2>Survey Form</h2>
+                    <a href="https://github.com/helminolimit/survey-form.git" target="_blank" rel="noopener"><button type="button" class="button" rel="noopener">See more</button></a>
+                </div>
+                </div>
+            </div>
+
+            <div class="project-tile">
+                <div class="card">
+                <img src="/images/landp.PNG" alt="project3" >
+                <div class="container">
+                    <h2>Product Landing Page</h2>
+                    <a href="https://github.com/helminolimit/landing-page.git" target="_blank" rel="noopener"><button type="button" class="button">See more</button></a>
+                </div>
+                </div>
+            </div>
+        </div>    
+
+        <!-- 3sect profile -->
+    <section id="profile">
+        <div class="about-section">
+            <h1>About Page</h1>
+            <p>Visit my freeCodeCamp Profile <i class="fa-brands fa-free-code-camp"></i> <a id="profile-link" href="https://www.freecodecamp.org/helminolimit" target="_blank" rel="noopener">here</a></p>
+            <p>This portfolio is build in order to receive my certificate.</p>
+          </div>
+    </section>
+
+        <div class="container1" id="kontak">
+            <div class="contactus">
+              <h2>Contact ME</h2>
+              <p>Swing by for a cup of coffee, or leave us a message:</p>
+            </div>
+            <div class="row">
+              <div class="column1">
+                <img src="https://asset-a.grid.id/crop/149x0:1019x435/700x465/photo/2019/12/10/2600146474.png" alt="map">
+              </div>
+              <div class="column1">
+                <form action="/action_page.php">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  <!-- <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                  </select> -->
+                  <label for="subject">Suggestion</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+                  <input type="submit" value="Submit">
+                </form>
+              </div>
+            </div>
+        </div>
+        <footer><p>© 2022 NoLimit</p></footer>
+        
+</body>
+</html>
